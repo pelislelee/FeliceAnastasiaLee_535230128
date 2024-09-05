@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.CV {
+    width: 80%;
+    margin: 20px auto;
+}
+.CV .header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(223, 215, 201);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 53px;
+    border: 5px solid rgb(252, 248, 245);
+    box-shadow: 3px 3px 10px grey;
+}
+
+.header-text {
+    color: rgb(252, 248, 245);
+    width: 60%;
+    margin-left: 350px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.header-text p {
+    font-size: 20px;
+    color: rgb(252, 248, 245);
+}
+
+.content {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.left-area {
+    width: 30%;
+    background-color: rgb(252, 248, 245);
+    text-align: center;
+}
+
+.left-area .contact {
+    margin-top: 130px;
+    padding: 0 30px;
+}
+
+.contact h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.contact h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact p {
+    font-size: 17px;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 20px;
+}
+.follow h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.follow h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.follow p{
+    font-size: 15px;
+    color: rgb(21, 10, 1);
+}
+
+.right-area {
+    width: 70%; 
+    padding: 50px;
+    background-color: rgb(237, 228, 221); /* Optional: Adds a background to right area for better visibility */
+}
+
+.right-area h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.right-area h1 span {
+    margin-right: 30px;
+    font-size: 50px;
+    color: rgb(21, 10, 1);
+}
+
+.right-area p {
+    padding-left: 30px;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color: rgb(21, 10, 1);
+    margin-top: 10px;
+}
+.work h1{
+    margin-top: 25px;
+}
+.work-group{
+    margin: 20px 0;
+}
+.work .work-group {
+    position: relative;
+    margin-bottom: 15px; /* Added margin for spacing between work groups */
+}
+
+.work-group h3 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.work-group h4 {
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: bold;
+    color: rgb(21, 10, 1);
+}
+.work p{
+    margin-top: 5px;
+    padding-left: 70px;
+}
+.work-group span {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: rgb(21, 10, 1);
+    font-weight: bold;
+    font-size: 15px;
+}
+.education{
+    margin-top: 30px;
+}
+.edu-group{
+    position:relative;
+}
+.edu-group h4{
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.edu-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: rgb(21, 10, 1);
+    font-weight: bold;
+    font-size: 15px;
+}
+.edu-group p{
+    padding-left: 70px;
+}
